@@ -1,0 +1,198 @@
+/* Bufan admin screens. */
+
+.bufan-mb__intro {
+	margin: 4px 0 12px;
+	padding: 10px 12px;
+	background: #f6f1e7;
+	border-left: 3px solid #b5542c;
+}
+
+.bufan-mb__title {
+	margin: 22px 0 10px !important;
+	padding: 0 0 6px !important;
+	border-bottom: 1px dashed #dcdcde;
+	font-size: 14px !important;
+}
+
+.bufan-mb__grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+	gap: 0 20px;
+}
+
+.bufan-mb__grid--4 {
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.bufan-mb__grid p {
+	margin: 0 0 12px;
+}
+
+.bufan-mb__grid label,
+.bufan-mb label strong {
+	display: inline-block;
+	margin-bottom: 4px;
+}
+
+.bufan-mb__grid input + input {
+	margin-top: 6px;
+}
+
+.bufan-gallery__list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+	margin: 0 0 10px;
+	padding: 0;
+	list-style: none;
+}
+
+.bufan-gallery__item {
+	position: relative;
+	width: 90px;
+	height: 90px;
+	margin: 0;
+	overflow: hidden;
+	border: 1px solid #dcdcde;
+	border-radius: 6px;
+	background: #f6f7f7;
+	cursor: move;
+}
+
+.bufan-gallery__item img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.bufan-gallery__remove {
+	position: absolute;
+	top: 4px;
+	right: 4px;
+	width: 22px;
+	height: 22px;
+	padding: 0;
+	border: 0;
+	border-radius: 50%;
+	background: rgba(0, 0, 0, 0.65);
+	color: #fff;
+	font-size: 16px;
+	line-height: 22px;
+	cursor: pointer;
+}
+
+.bufan-gallery__item.ui-sortable-placeholder {
+	visibility: visible !important;
+	border: 2px dashed #b5542c;
+	background: #f7e8de;
+}
+
+.bufan-gallery .description {
+	margin-left: 8px;
+}
+
+.bufan-image-field {
+	margin-bottom: 14px;
+}
+
+.bufan-image-field__preview {
+	display: block;
+	max-width: 260px;
+	max-height: 160px;
+	margin-bottom: 8px;
+	border: 1px solid #dcdcde;
+	border-radius: 6px;
+	background: #f6f7f7;
+}
+
+.bufan-image-field__preview[hidden],
+.bufan-image-field [hidden] {
+	display: none !important;
+}
+
+.bufan-badge {
+	display: inline-block;
+	padding: 1px 7px;
+	border-radius: 10px;
+	background: #b5542c;
+	color: #fff;
+	font-size: 11px;
+	font-weight: 600;
+}
+
+.bufan-warning {
+	color: #b32d2e;
+}
+
+.bufan-inquiry-table th {
+	width: 180px;
+	font-weight: 600;
+}
+
+.post-type-bufan_inquiry .wp-list-table .column-title strong {
+	font-size: 14px;
+}
+
+.column-bufan_thumb {
+	width: 64px;
+}
+
+.column-bufan_thumb img {
+	border-radius: 4px;
+	object-fit: cover;
+}
+
+.column-bufan_featured {
+	width: 80px;
+	color: #b5542c;
+	font-size: 16px;
+}
+
+.bufan-setup {
+	max-width: 860px;
+}
+
+.bufan-setup__card {
+	margin: 20px 0;
+	padding: 8px 24px 20px;
+	background: #fff;
+	border: 1px solid #dcdcde;
+	border-radius: 8px;
+}
+
+.bufan-checklist {
+	margin: 0 0 16px;
+	padding: 0;
+	list-style: none;
+}
+
+.bufan-checklist li {
+	position: relative;
+	margin-bottom: 8px;
+	padding-left: 28px;
+}
+
+.bufan-checklist li::before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-weight: 700;
+}
+
+.bufan-checklist .is-ok::before {
+	content: "✓";
+	color: #1a7f37;
+}
+
+.bufan-checklist .is-todo::before {
+	content: "!";
+	color: #b5542c;
+}
+
+.bufan-setup__log {
+	max-height: 260px;
+	margin: 8px 0 4px;
+	padding-left: 18px;
+	overflow: auto;
+	list-style: disc;
+}

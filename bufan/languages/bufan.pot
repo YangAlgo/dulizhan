@@ -1,0 +1,1404 @@
+# Copyright (C) 2026 Bufan
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Bufan 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/bufan\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-10-04T10:01:19+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: bufan\n"
+
+#. Theme Name of the theme
+#. Author of the theme
+#: style.css
+msgid "Bufan"
+msgstr ""
+
+#. Theme URI of the theme
+#: style.css
+msgid "https://bufanfactory.com"
+msgstr ""
+
+#. Description of the theme
+#: style.css
+msgid "B2B website theme for Bufan, a canvas embroidery bag factory. Product catalogue with inquiry form, English / Chinese via Polylang, one-click setup."
+msgstr ""
+
+#: 404.php:15
+msgid "This page has come unstitched"
+msgstr ""
+
+#: 404.php:16
+msgid "The page you are looking for does not exist or has moved."
+msgstr ""
+
+#: 404.php:18
+msgid "Back to homepage"
+msgstr ""
+
+#: 404.php:19
+#: front-page.php:51
+#: inc/products.php:27
+msgid "View products"
+msgstr ""
+
+#: archive.php:33
+#: index.php:26
+msgid "Nothing found."
+msgstr ""
+
+#: footer.php:34
+#: inc/products.php:18
+#: inc/products.php:20
+#: inc/products.php:35
+#: inc/template-tags.php:122
+#: inc/template-tags.php:179
+#: template-parts/product-archive.php:11
+msgid "Products"
+msgstr ""
+
+#: footer.php:41
+#: front-page.php:129
+#: inc/products.php:21
+msgid "All products"
+msgstr ""
+
+#: footer.php:46
+#: inc/inquiries.php:61
+#: template-parts/inquiry-form.php:71
+msgid "Company"
+msgstr ""
+
+#: footer.php:51
+#: inc/template-tags.php:132
+msgid "Contact"
+msgstr ""
+
+#: footer.php:53
+msgid "Send an inquiry"
+msgstr ""
+
+#: footer.php:60
+msgid "All rights reserved."
+msgstr ""
+
+#. translators: %s: site name
+#: footer.php:70
+#, php-format
+msgid "Hello %s, I would like to ask about your products."
+msgstr ""
+
+#: footer.php:73
+msgid "Chat with us on WhatsApp"
+msgstr ""
+
+#: front-page.php:50
+msgid "Get a free quote"
+msgstr ""
+
+#: front-page.php:54
+msgid "Custom logo embroidery"
+msgstr ""
+
+#: front-page.php:55
+msgid "Samples before bulk"
+msgstr ""
+
+#: front-page.php:56
+msgid "Factory prices"
+msgstr ""
+
+#: front-page.php:78
+msgid "Illustration of embroidered canvas bags"
+msgstr ""
+
+#: front-page.php:87
+msgid "Key facts"
+msgstr ""
+
+#: front-page.php:103
+msgid "Product range"
+msgstr ""
+
+#: front-page.php:103
+msgid "Canvas bags, embroidered your way"
+msgstr ""
+
+#: front-page.php:103
+msgid "Start from one of our styles and make it yours with custom embroidery, colors and labels."
+msgstr ""
+
+#. translators: %d: number of products
+#: front-page.php:113
+#, php-format
+msgid "%d product"
+msgid_plural "%d products"
+msgstr[0] ""
+msgstr[1] ""
+
+#: front-page.php:128
+msgid "Featured"
+msgstr ""
+
+#: front-page.php:128
+msgid "Popular styles"
+msgstr ""
+
+#: front-page.php:146
+msgid "Why Bufan"
+msgstr ""
+
+#: front-page.php:146
+msgid "A factory partner you can rely on"
+msgstr ""
+
+#: front-page.php:174
+#: inc/template-tags.php:130
+msgid "About us"
+msgstr ""
+
+#: front-page.php:182
+msgid "We are a family-run factory dedicated to embroidered canvas bags. Cutting, embroidery and sewing all happen in our own workshop, so we control quality and deliver on time."
+msgstr ""
+
+#: front-page.php:188
+msgid "More about our factory"
+msgstr ""
+
+#: front-page.php:199
+msgid "Get in touch"
+msgstr ""
+
+#: front-page.php:200
+msgid "Tell us about your project"
+msgstr ""
+
+#: front-page.php:201
+msgid "Share your design, quantity and timeline. We will come back with suggestions and a quotation."
+msgstr ""
+
+#: header.php:22
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:27
+msgid "Factory direct · Custom orders welcome"
+msgstr ""
+
+#: header.php:44
+#: inc/setup.php:39
+msgid "Main menu"
+msgstr ""
+
+#: header.php:47
+#: header.php:54
+#: inc/template-tags.php:424
+#: single-bufan_product.php:104
+#: template-parts/cta-band.php:17
+msgid "Get a quote"
+msgstr ""
+
+#: header.php:58
+#: inc/setup.php:75
+msgid "Menu"
+msgstr ""
+
+#: home.php:17
+#: inc/template-tags.php:131
+msgid "Blog"
+msgstr ""
+
+#: home.php:18
+msgid "News from our factory, embroidery tips and ideas for custom canvas bags."
+msgstr ""
+
+#: home.php:35
+msgid "No articles yet — check back soon."
+msgstr ""
+
+#: inc/helpers.php:194
+#: inc/products.php:287
+msgid "Product photos"
+msgstr ""
+
+#: inc/helpers.php:195
+msgid "Add to product"
+msgstr ""
+
+#: inc/helpers.php:196
+#: inc/products.php:299
+msgid "Remove photo"
+msgstr ""
+
+#: inc/helpers.php:197
+#: inc/home-fields.php:184
+#: inc/settings.php:245
+msgid "Choose image"
+msgstr ""
+
+#: inc/helpers.php:198
+msgid "Use this image"
+msgstr ""
+
+#: inc/home-fields.php:20
+msgid "Canvas embroidery factory · OEM & ODM"
+msgstr ""
+
+#: inc/home-fields.php:21
+msgid "Custom embroidered canvas bags, made in our own factory"
+msgstr ""
+
+#: inc/home-fields.php:22
+msgid "Cosmetic pouches, coin purses, pencil cases and totes — embroidered with your design and made to order for brands, shops and events in Europe and North America."
+msgstr ""
+
+#: inc/home-fields.php:23
+#: page-templates/customization.php:19
+msgid "OEM & ODM"
+msgstr ""
+
+#: inc/home-fields.php:24
+msgid "Your design or ours"
+msgstr ""
+
+#: inc/home-fields.php:25
+msgid "In-house"
+msgstr ""
+
+#: inc/home-fields.php:26
+msgid "Embroidery, cutting and sewing"
+msgstr ""
+
+#: inc/home-fields.php:27
+msgid "Sample first"
+msgstr ""
+
+#: inc/home-fields.php:28
+msgid "Approve a sample before bulk production"
+msgstr ""
+
+#: inc/home-fields.php:29
+msgid "EU & US"
+msgstr ""
+
+#: inc/home-fields.php:30
+msgid "Export packing and shipping"
+msgstr ""
+
+#: inc/home-fields.php:31
+msgid "A family factory that lives and breathes embroidery"
+msgstr ""
+
+#: inc/home-fields.php:107
+msgid "Homepage sections"
+msgstr ""
+
+#: inc/home-fields.php:125
+msgid "Leave a field empty to use the suggested text shown in grey. The text in the editor above appears in the \"About us\" part of the homepage."
+msgstr ""
+
+#: inc/home-fields.php:127
+msgid "Top banner"
+msgstr ""
+
+#: inc/home-fields.php:129
+msgid "Small line above the title"
+msgstr ""
+
+#: inc/home-fields.php:133
+msgid "Main title"
+msgstr ""
+
+#: inc/home-fields.php:137
+msgid "Text under the title"
+msgstr ""
+
+#: inc/home-fields.php:140
+msgid "Banner photo"
+msgstr ""
+
+#: inc/home-fields.php:140
+msgid "A bright photo of your best products, at least 1200 px wide. Without a photo an illustration is shown."
+msgstr ""
+
+#: inc/home-fields.php:142
+msgid "Key facts (4 boxes under the banner)"
+msgstr ""
+
+#: inc/home-fields.php:143
+msgid "Real numbers convince buyers: years in business, number of embroidery machines, monthly capacity, MOQ."
+msgstr ""
+
+#. translators: %d: box number 1-4
+#: inc/home-fields.php:150
+#, php-format
+msgid "Box %d — big text"
+msgstr ""
+
+#: inc/home-fields.php:154
+msgid "Small text"
+msgstr ""
+
+#: inc/home-fields.php:159
+msgid "About us section"
+msgstr ""
+
+#: inc/home-fields.php:161
+msgid "Section title"
+msgstr ""
+
+#: inc/home-fields.php:164
+msgid "Factory photo"
+msgstr ""
+
+#: inc/home-fields.php:164
+msgid "A real photo of your workshop or embroidery machines."
+msgstr ""
+
+#: inc/home-fields.php:185
+#: inc/settings.php:246
+msgid "Remove"
+msgstr ""
+
+#: inc/inquiries.php:21
+#: inc/inquiries.php:23
+msgid "Inquiries"
+msgstr ""
+
+#: inc/inquiries.php:22
+#: inc/inquiries.php:25
+msgid "Inquiry"
+msgstr ""
+
+#: inc/inquiries.php:24
+msgid "All inquiries"
+msgstr ""
+
+#: inc/inquiries.php:26
+msgid "Search inquiries"
+msgstr ""
+
+#: inc/inquiries.php:27
+msgid "No inquiries yet."
+msgstr ""
+
+#: inc/inquiries.php:28
+msgid "No inquiries in Trash."
+msgstr ""
+
+#: inc/inquiries.php:53
+#: template-parts/inquiry-form.php:63
+msgid "Your name"
+msgstr ""
+
+#: inc/inquiries.php:57
+#: inc/inquiries.php:368
+#: inc/template-tags.php:250
+#: template-parts/inquiry-form.php:67
+msgid "Email"
+msgstr ""
+
+#: inc/inquiries.php:65
+#: inc/inquiries.php:369
+#: template-parts/inquiry-form.php:75
+msgid "Country"
+msgstr ""
+
+#: inc/inquiries.php:69
+#: template-parts/inquiry-form.php:79
+msgid "Phone / WhatsApp"
+msgstr ""
+
+#: inc/inquiries.php:73
+#: template-parts/inquiry-form.php:83
+msgid "Estimated quantity"
+msgstr ""
+
+#: inc/inquiries.php:77
+#: inc/inquiries.php:247
+#: template-parts/inquiry-form.php:87
+msgid "Your message"
+msgstr ""
+
+#. translators: 1: visitor name, 2: site name
+#: inc/inquiries.php:235
+#, php-format
+msgid "New inquiry from %1$s — %2$s"
+msgstr ""
+
+#: inc/inquiries.php:244
+#: inc/inquiries.php:370
+#: inc/inquiries.php:439
+#: inc/products.php:19
+#: template-parts/inquiry-form.php:57
+msgid "Product"
+msgstr ""
+
+#: inc/inquiries.php:251
+msgid "Reply to this email to answer the customer directly."
+msgstr ""
+
+#: inc/inquiries.php:252
+msgid "View in WordPress"
+msgstr ""
+
+#: inc/inquiries.php:289
+msgid "Thank you! Your inquiry has been sent. We will reply by email soon."
+msgstr ""
+
+#: inc/inquiries.php:290
+msgid "Please fill in your name, a valid email address and your message."
+msgstr ""
+
+#: inc/inquiries.php:291
+msgid "Please tick the box to agree to our privacy policy."
+msgstr ""
+
+#: inc/inquiries.php:292
+msgid "The form could not be verified. Please submit it again."
+msgstr ""
+
+#: inc/inquiries.php:293
+msgid "Too many messages were sent from your network. Please try again in a few minutes, or email us directly."
+msgstr ""
+
+#: inc/inquiries.php:294
+msgid "Something went wrong on our side. Please email us directly."
+msgstr ""
+
+#: inc/inquiries.php:367
+msgid "From"
+msgstr ""
+
+#: inc/inquiries.php:371
+#: inc/inquiries.php:452
+msgid "Received"
+msgstr ""
+
+#: inc/inquiries.php:388
+msgid "New"
+msgstr ""
+
+#: inc/inquiries.php:391
+msgid "Email notification failed"
+msgstr ""
+
+#: inc/inquiries.php:410
+msgid "Inquiry details"
+msgstr ""
+
+#: inc/inquiries.php:411
+msgid "Actions"
+msgstr ""
+
+#: inc/inquiries.php:446
+msgid "Sent from page"
+msgstr ""
+
+#: inc/inquiries.php:450
+msgid "Site language"
+msgstr ""
+
+#. translators: %s: site name
+#: inc/inquiries.php:465
+#, php-format
+msgid "Re: your inquiry to %s"
+msgstr ""
+
+#: inc/inquiries.php:473
+msgid "Reply by email"
+msgstr ""
+
+#: inc/inquiries.php:477
+msgid "Open in WhatsApp"
+msgstr ""
+
+#: inc/inquiries.php:480
+msgid "The email notification for this inquiry could not be sent. Install the \"WP Mail SMTP\" plugin so new inquiries reach your mailbox."
+msgstr ""
+
+#: inc/inquiries.php:483
+msgid "Move to Trash"
+msgstr ""
+
+#: inc/inquiries.php:512
+msgid "Open"
+msgstr ""
+
+#: inc/polylang.php:108
+msgid "Bufan theme: install and activate the free \"Polylang\" plugin to get the English and Chinese versions of the site."
+msgstr ""
+
+#: inc/polylang.php:110
+#: inc/setup-wizard.php:76
+msgid "Install Polylang"
+msgstr ""
+
+#: inc/products.php:22
+msgid "Add product"
+msgstr ""
+
+#: inc/products.php:23
+msgid "Add new product"
+msgstr ""
+
+#: inc/products.php:24
+msgid "Edit product"
+msgstr ""
+
+#: inc/products.php:25
+msgid "New product"
+msgstr ""
+
+#: inc/products.php:26
+msgid "View product"
+msgstr ""
+
+#: inc/products.php:28
+msgid "Search products"
+msgstr ""
+
+#: inc/products.php:29
+msgid "No products found."
+msgstr ""
+
+#: inc/products.php:30
+msgid "No products found in Trash."
+msgstr ""
+
+#: inc/products.php:31
+msgid "Main product photo"
+msgstr ""
+
+#: inc/products.php:32
+msgid "Set main product photo"
+msgstr ""
+
+#: inc/products.php:33
+msgid "Remove main product photo"
+msgstr ""
+
+#: inc/products.php:34
+msgid "Use as main product photo"
+msgstr ""
+
+#: inc/products.php:36
+msgid "Products list"
+msgstr ""
+
+#: inc/products.php:57
+#: template-parts/product-archive.php:36
+msgid "Product categories"
+msgstr ""
+
+#: inc/products.php:58
+msgid "Product category"
+msgstr ""
+
+#: inc/products.php:59
+msgid "Categories"
+msgstr ""
+
+#: inc/products.php:60
+msgid "All categories"
+msgstr ""
+
+#: inc/products.php:61
+msgid "Edit category"
+msgstr ""
+
+#: inc/products.php:62
+msgid "View category"
+msgstr ""
+
+#: inc/products.php:63
+msgid "Update category"
+msgstr ""
+
+#: inc/products.php:64
+msgid "Add new category"
+msgstr ""
+
+#: inc/products.php:65
+msgid "New category name"
+msgstr ""
+
+#: inc/products.php:66
+msgid "Parent category"
+msgstr ""
+
+#: inc/products.php:67
+msgid "Search categories"
+msgstr ""
+
+#: inc/products.php:68
+msgid "No categories found."
+msgstr ""
+
+#: inc/products.php:69
+msgid "← Back to categories"
+msgstr ""
+
+#: inc/products.php:94
+#: inc/products.php:417
+#: single-bufan_product.php:81
+#: template-parts/product-card.php:27
+msgid "Item No."
+msgstr ""
+
+#: inc/products.php:98
+msgid "Size"
+msgstr ""
+
+#: inc/products.php:99
+msgid "20 × 14 × 6 cm"
+msgstr ""
+
+#: inc/products.php:102
+msgid "Material"
+msgstr ""
+
+#: inc/products.php:103
+msgid "12 oz cotton canvas, polyester lining"
+msgstr ""
+
+#: inc/products.php:106
+msgid "Colors"
+msgstr ""
+
+#: inc/products.php:107
+msgid "Natural, black, navy, or Pantone matched"
+msgstr ""
+
+#: inc/products.php:110
+msgid "Embroidery"
+msgstr ""
+
+#: inc/products.php:111
+msgid "Flat, 3D puff, chenille"
+msgstr ""
+
+#: inc/products.php:114
+#: template-parts/product-card.php:30
+msgid "MOQ"
+msgstr ""
+
+#: inc/products.php:115
+msgid "100 pcs per design"
+msgstr ""
+
+#: inc/products.php:118
+msgid "Sample time"
+msgstr ""
+
+#: inc/products.php:119
+msgid "5–7 days"
+msgstr ""
+
+#: inc/products.php:122
+msgid "Production time"
+msgstr ""
+
+#: inc/products.php:123
+msgid "15–25 days after sample approval"
+msgstr ""
+
+#: inc/products.php:126
+msgid "Packaging"
+msgstr ""
+
+#: inc/products.php:127
+msgid "1 pc per OPP bag, 100 pcs per carton"
+msgstr ""
+
+#: inc/products.php:264
+msgid "Product details"
+msgstr ""
+
+#: inc/products.php:284
+msgid "Fill in what applies — empty fields are hidden on the website. Set the main photo in \"Main product photo\" on the right, write the full description in the editor above, and a one or two sentence summary in \"Excerpt\" below (shown under the product title)."
+msgstr ""
+
+#: inc/products.php:304
+msgid "Add photos"
+msgstr ""
+
+#: inc/products.php:305
+msgid "Extra photos shown under the main photo. Drag to reorder."
+msgstr ""
+
+#: inc/products.php:308
+#: single-bufan_product.php:89
+msgid "Specifications"
+msgstr ""
+
+#: inc/products.php:319
+msgid "More specifications"
+msgstr ""
+
+#: inc/products.php:320
+msgid ""
+"Zipper: YKK #5 metal\n"
+"Weight: 85 g"
+msgstr ""
+
+#: inc/products.php:321
+msgid "One per line, written as \"Name: value\"."
+msgstr ""
+
+#: inc/products.php:324
+#: single-bufan_product.php:130
+msgid "Customization options"
+msgstr ""
+
+#: inc/products.php:326
+msgid ""
+"Your logo embroidered on the front\n"
+"Custom fabric color\n"
+"Printed lining\n"
+"Woven label and hang tag"
+msgstr ""
+
+#: inc/products.php:327
+msgid "One option per line. Shown as a checklist on the product page."
+msgstr ""
+
+#: inc/products.php:330
+#: inc/products.php:418
+msgid "Homepage"
+msgstr ""
+
+#: inc/products.php:334
+msgid "Show this product in \"Featured products\" on the homepage"
+msgstr ""
+
+#: inc/products.php:413
+msgid "Photo"
+msgstr ""
+
+#: inc/settings.php:18
+msgid "Brand"
+msgstr ""
+
+#: inc/settings.php:21
+msgid "Logo"
+msgstr ""
+
+#: inc/settings.php:23
+msgid "PNG or SVG with a transparent background works best. Without a logo the site name is shown as text."
+msgstr ""
+
+#: inc/settings.php:26
+msgid "Footer introduction (English)"
+msgstr ""
+
+#: inc/settings.php:30
+msgid "Footer introduction (Chinese)"
+msgstr ""
+
+#: inc/settings.php:36
+msgid "Contact details"
+msgstr ""
+
+#: inc/settings.php:39
+msgid "Public email"
+msgstr ""
+
+#: inc/settings.php:41
+msgid "Shown on the website. Use an address on your own domain, e.g. sales@bufanfactory.com."
+msgstr ""
+
+#: inc/settings.php:44
+msgid "Send inquiries to"
+msgstr ""
+
+#: inc/settings.php:46
+msgid "New inquiries are emailed here. Leave empty to use the WordPress admin email."
+msgstr ""
+
+#: inc/settings.php:49
+#: inc/template-tags.php:268
+msgid "Phone"
+msgstr ""
+
+#: inc/settings.php:51
+msgid "With country code, e.g. +86 138 0000 0000."
+msgstr ""
+
+#: inc/settings.php:54
+msgid "WhatsApp number"
+msgstr ""
+
+#: inc/settings.php:56
+msgid "With country code, e.g. +86 138 0000 0000. Adds a WhatsApp chat button to every page."
+msgstr ""
+
+#: inc/settings.php:59
+msgid "WeChat ID"
+msgstr ""
+
+#: inc/settings.php:63
+msgid "Factory address (English)"
+msgstr ""
+
+#: inc/settings.php:67
+msgid "Factory address (Chinese)"
+msgstr ""
+
+#: inc/settings.php:71
+msgid "Business hours (English)"
+msgstr ""
+
+#: inc/settings.php:73
+msgid "e.g. Mon–Sat, 9:00–18:00 (GMT+8)"
+msgstr ""
+
+#: inc/settings.php:76
+msgid "Business hours (Chinese)"
+msgstr ""
+
+#: inc/settings.php:82
+msgid "Social media"
+msgstr ""
+
+#: inc/settings.php:111
+msgid "Website"
+msgstr ""
+
+#: inc/settings.php:114
+msgid "Floating WhatsApp button"
+msgstr ""
+
+#: inc/settings.php:116
+msgid "Show a WhatsApp chat button in the bottom corner of every page"
+msgstr ""
+
+#: inc/settings.php:119
+msgid "Code in <head>"
+msgstr ""
+
+#: inc/settings.php:121
+msgid "For Google Analytics, Google Ads or Search Console verification tags. Only paste code from services you trust."
+msgstr ""
+
+#: inc/settings.php:133
+#: inc/settings.php:141
+#: inc/settings.php:211
+msgid "Bufan settings"
+msgstr ""
+
+#: inc/settings.php:141
+msgid "Settings"
+msgstr ""
+
+#: inc/settings.php:215
+msgid "New site? Run the one-click setup first to create the pages, menus and example products."
+msgstr ""
+
+#: inc/settings.php:216
+msgid "Open setup"
+msgstr ""
+
+#: inc/setup-wizard.php:17
+#: inc/setup-wizard.php:54
+msgid "One-click setup"
+msgstr ""
+
+#: inc/setup-wizard.php:34
+msgid "Bufan theme is active."
+msgstr ""
+
+#: inc/setup-wizard.php:35
+msgid "Run the one-click setup to create the pages, product categories, example products and menus in English and Chinese."
+msgstr ""
+
+#: inc/setup-wizard.php:37
+msgid "Open one-click setup"
+msgstr ""
+
+#: inc/setup-wizard.php:58
+msgid "Setup finished."
+msgstr ""
+
+#: inc/setup-wizard.php:58
+msgid "View your website"
+msgstr ""
+
+#: inc/setup-wizard.php:69
+msgid "Before you start"
+msgstr ""
+
+#: inc/setup-wizard.php:73
+msgid "Polylang is active — English and Chinese versions will be created."
+msgstr ""
+
+#: inc/setup-wizard.php:75
+msgid "Polylang is not active. Install it first to get English and Chinese versions; otherwise only the English site is created."
+msgstr ""
+
+#: inc/setup-wizard.php:80
+msgid "Readable links (e.g. /products/canvas-pouch/) — setup turns them on."
+msgstr ""
+
+#. translators: %s: date and time
+#: inc/setup-wizard.php:86
+#, php-format
+msgid "Setup already ran on %s. Running it again only adds what is missing."
+msgstr ""
+
+#: inc/setup-wizard.php:92
+msgid "What setup creates"
+msgstr ""
+
+#: inc/setup-wizard.php:94
+msgid "Languages: English (main) and Chinese"
+msgstr ""
+
+#: inc/setup-wizard.php:95
+msgid "Pages: Home, Customization, About us, FAQ, Contact, Privacy Policy, Blog"
+msgstr ""
+
+#: inc/setup-wizard.php:96
+msgid "Product categories: Cosmetic Bags, Coin Purses, Pencil Cases, Tote Bags"
+msgstr ""
+
+#: inc/setup-wizard.php:97
+msgid "Main menu and footer menu for each language"
+msgstr ""
+
+#: inc/setup-wizard.php:106
+msgid "Add 4 example products with illustrations (replace them with your real products later)"
+msgstr ""
+
+#: inc/setup-wizard.php:112
+msgid "Remove the WordPress sample post (\"Hello world!\") and sample page"
+msgstr ""
+
+#: inc/setup-wizard.php:115
+msgid "Run setup"
+msgstr ""
+
+#: inc/setup-wizard.php:120
+msgid "After setup"
+msgstr ""
+
+#. translators: %s: link to the settings page
+#: inc/setup-wizard.php:126
+#, php-format
+msgid "Fill in your email, WhatsApp, address and logo in %s."
+msgstr ""
+
+#: inc/setup-wizard.php:127
+msgid "Bufan → Settings"
+msgstr ""
+
+#: inc/setup-wizard.php:131
+msgid "Edit Pages → Home to change the homepage banner, photos and key facts."
+msgstr ""
+
+#: inc/setup-wizard.php:132
+msgid "Add your products under Products → Add product, then add the Chinese version with the \"+\" in the Languages box."
+msgstr ""
+
+#: inc/setup-wizard.php:133
+msgid "Rewrite the About us, FAQ and Customization pages with your real story and numbers."
+msgstr ""
+
+#: inc/setup-wizard.php:145
+msgid "You are not allowed to do this."
+msgstr ""
+
+#: inc/setup-wizard.php:174
+msgid "Turned on readable links."
+msgstr ""
+
+#: inc/setup-wizard.php:180
+msgid "Site name set to \"Bufan\"."
+msgstr ""
+
+#: inc/setup-wizard.php:236
+msgid "All done."
+msgstr ""
+
+#: inc/setup-wizard.php:256
+msgid "Polylang is not active: created the English site only."
+msgstr ""
+
+#: inc/setup-wizard.php:300
+msgid "Could not create the English language:"
+msgstr ""
+
+#: inc/setup-wizard.php:303
+msgid "Added language: English (main language)."
+msgstr ""
+
+#: inc/setup-wizard.php:318
+msgid "Could not create the Chinese language:"
+msgstr ""
+
+#: inc/setup-wizard.php:321
+msgid "Added language: Chinese."
+msgstr ""
+
+#: inc/setup-wizard.php:338
+msgid "Note: the main language in Polylang is not English. For customers in Europe and North America, set English as the default language in Languages → Languages."
+msgstr ""
+
+#. translators: %s: post title
+#: inc/setup-wizard.php:389
+#, php-format
+msgid "Moved the sample \"%s\" to Trash."
+msgstr ""
+
+#. translators: %s: page title
+#: inc/setup-wizard.php:446
+#: inc/setup-wizard.php:461
+#, php-format
+msgid "Created page: %s"
+msgstr ""
+
+#. translators: %s: category name
+#: inc/setup-wizard.php:534
+#: inc/setup-wizard.php:549
+#, php-format
+msgid "Created product category: %s"
+msgstr ""
+
+#: inc/setup-wizard.php:607
+msgid "Example products already exist, skipped."
+msgstr ""
+
+#. translators: %d: number of products
+#: inc/setup-wizard.php:660
+#, php-format
+msgid "Created %d example products."
+msgstr ""
+
+#. translators: %s: menu name
+#: inc/setup-wizard.php:767
+#, php-format
+msgid "Created menu: %s"
+msgstr ""
+
+#: inc/setup.php:40
+msgid "Footer menu"
+msgstr ""
+
+#: inc/setup.php:76
+#: single-bufan_product.php:199
+msgid "Close"
+msgstr ""
+
+#: inc/template-tags.php:97
+#: inc/template-tags.php:176
+msgid "Home"
+msgstr ""
+
+#: inc/template-tags.php:129
+msgid "Customization"
+msgstr ""
+
+#: inc/template-tags.php:157
+msgid "Language"
+msgstr ""
+
+#: inc/template-tags.php:207
+msgid "Breadcrumb"
+msgstr ""
+
+#: inc/template-tags.php:277
+msgid "WeChat"
+msgstr ""
+
+#: inc/template-tags.php:286
+msgid "Factory"
+msgstr ""
+
+#: inc/template-tags.php:295
+msgid "Hours"
+msgstr ""
+
+#: inc/template-tags.php:357
+msgid "Previous page"
+msgstr ""
+
+#: inc/template-tags.php:358
+msgid "Next page"
+msgstr ""
+
+#: inc/template-tags.php:359
+msgid "Page"
+msgstr ""
+
+#: inc/template-tags.php:419
+msgid "Share your idea"
+msgstr ""
+
+#: inc/template-tags.php:420
+msgid "Send your artwork, reference photos or just an idea, with the quantity you need."
+msgstr ""
+
+#: inc/template-tags.php:425
+msgid "We suggest materials and embroidery, then send a detailed quotation."
+msgstr ""
+
+#: inc/template-tags.php:429
+msgid "Approve the sample"
+msgstr ""
+
+#: inc/template-tags.php:430
+msgid "We make a real sample so you can check the size, colors and stitching."
+msgstr ""
+
+#: inc/template-tags.php:434
+msgid "Bulk production"
+msgstr ""
+
+#: inc/template-tags.php:435
+msgid "Cutting, embroidery and sewing in our factory, with checks at every step."
+msgstr ""
+
+#: inc/template-tags.php:439
+msgid "Inspection & packing"
+msgstr ""
+
+#: inc/template-tags.php:440
+msgid "Every bag is inspected, then packed the way you need it."
+msgstr ""
+
+#: inc/template-tags.php:444
+msgid "Delivery"
+msgstr ""
+
+#: inc/template-tags.php:445
+msgid "Shipped by express, air or sea — or handed to your forwarder."
+msgstr ""
+
+#: inc/template-tags.php:459
+msgid "Factory direct"
+msgstr ""
+
+#: inc/template-tags.php:460
+msgid "No middlemen: talk directly to the people who make your bags, at factory prices."
+msgstr ""
+
+#: inc/template-tags.php:464
+msgid "Embroidery know-how"
+msgstr ""
+
+#: inc/template-tags.php:465
+msgid "We digitize your artwork in-house and choose the right stitches for clean, durable results."
+msgstr ""
+
+#: inc/template-tags.php:469
+msgid "Made to your brief"
+msgstr ""
+
+#: inc/template-tags.php:470
+msgid "Size, canvas, colors, zippers, labels and packaging — all customizable."
+msgstr ""
+
+#: inc/template-tags.php:474
+msgid "Sample before bulk"
+msgstr ""
+
+#: inc/template-tags.php:475
+msgid "See and approve a real sample before production starts."
+msgstr ""
+
+#: inc/template-tags.php:479
+msgid "Checked at every step"
+msgstr ""
+
+#: inc/template-tags.php:480
+msgid "Materials, embroidery and finished bags are inspected throughout production."
+msgstr ""
+
+#: inc/template-tags.php:484
+msgid "Export ready"
+msgstr ""
+
+#: inc/template-tags.php:485
+msgid "Export packing and shipping to Europe and North America."
+msgstr ""
+
+#. Template Name of the theme
+msgid "Contact page (with inquiry form)"
+msgstr ""
+
+#: page-templates/contact.php:24
+msgid "Send us an inquiry"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Customization page (with process and inquiry form)"
+msgstr ""
+
+#: page-templates/customization.php:32
+msgid "Start a project"
+msgstr ""
+
+#: page-templates/customization.php:33
+msgid "Send us your design"
+msgstr ""
+
+#: page-templates/customization.php:34
+msgid "Describe your idea and quantity. You can email artwork files after we reply."
+msgstr ""
+
+#. translators: %s: search term
+#: search.php:16
+#, php-format
+msgid "Search results for “%s”"
+msgstr ""
+
+#: search.php:37
+msgid "Nothing matched your search. Try other words, or contact us directly."
+msgstr ""
+
+#: searchform.php:11
+#: searchform.php:13
+msgid "Search"
+msgstr ""
+
+#: searchform.php:12
+msgid "Search products and articles…"
+msgstr ""
+
+#. translators: 1: product name, 2: product URL
+#: single-bufan_product.php:21
+#, php-format
+msgid "Hello, I am interested in %1$s: %2$s"
+msgstr ""
+
+#: single-bufan_product.php:31
+msgid "Enlarge photo"
+msgstr ""
+
+#. translators: %d: photo number
+#: single-bufan_product.php:65
+#, php-format
+msgid "Show photo %d"
+msgstr ""
+
+#: single-bufan_product.php:110
+msgid "Your logo or artwork embroidered"
+msgstr ""
+
+#: single-bufan_product.php:111
+msgid "Sample approved before bulk production"
+msgstr ""
+
+#: single-bufan_product.php:112
+msgid "Made in our own factory"
+msgstr ""
+
+#: single-bufan_product.php:123
+msgid "Product description"
+msgstr ""
+
+#: single-bufan_product.php:145
+msgid "Quotation"
+msgstr ""
+
+#: single-bufan_product.php:146
+msgid "Request a quote for this product"
+msgstr ""
+
+#: single-bufan_product.php:147
+msgid "Tell us your quantity, colors and artwork. We will reply with a price, a sample plan and the production time."
+msgstr ""
+
+#: single-bufan_product.php:184
+msgid "You may also like"
+msgstr ""
+
+#: single-bufan_product.php:198
+msgid "Product photo"
+msgstr ""
+
+#: template-parts/cta-band.php:13
+msgid "Have a design in mind?"
+msgstr ""
+
+#: template-parts/cta-band.php:14
+msgid "Send us your artwork and quantity — we will reply with ideas, a sample plan and a quotation."
+msgstr ""
+
+#. translators: %s: product name
+#: template-parts/inquiry-form.php:30
+#, php-format
+msgid "Hi, I am interested in \"%s\". Please send me a quotation."
+msgstr ""
+
+#: template-parts/inquiry-form.php:84
+msgid "e.g. 500 pcs"
+msgstr ""
+
+#: template-parts/inquiry-form.php:88
+msgid "Tell us about the product, size, colors, embroidery and delivery date you have in mind."
+msgstr ""
+
+#. translators: %s: link to the privacy policy
+#: template-parts/inquiry-form.php:105
+#, php-format
+msgid "I agree that my details are used to answer this inquiry, as described in the %s."
+msgstr ""
+
+#: template-parts/inquiry-form.php:106
+msgid "privacy policy"
+msgstr ""
+
+#: template-parts/inquiry-form.php:109
+msgid "I agree that my details are used to answer this inquiry."
+msgstr ""
+
+#: template-parts/inquiry-form.php:117
+msgid "Send inquiry"
+msgstr ""
+
+#: template-parts/inquiry-form.php:118
+msgid "We reply by email. Your details stay private."
+msgstr ""
+
+#: template-parts/process.php:12
+msgid "How it works"
+msgstr ""
+
+#: template-parts/process.php:12
+msgid "From your idea to your warehouse"
+msgstr ""
+
+#: template-parts/process.php:12
+msgid "A clear process with a sample approved by you before bulk production."
+msgstr ""
+
+#: template-parts/product-archive.php:14
+msgid "Every style can be customized with your embroidery, colors, labels and packaging."
+msgstr ""
+
+#: template-parts/product-archive.php:29
+msgid "Catalogue"
+msgstr ""
+
+#: template-parts/product-archive.php:37
+msgid "All"
+msgstr ""
+
+#: template-parts/product-archive.php:57
+msgid "Products are coming soon. Contact us for our latest catalogue."
+msgstr ""
+
+#: template-parts/product-archive.php:58
+msgid "Ask for the catalogue"
+msgstr ""
+
+#: template-parts/product-card.php:34
+msgid "View details"
+msgstr ""
