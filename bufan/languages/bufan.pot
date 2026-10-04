@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-10-04T10:29:59+00:00\n"
+"POT-Creation-Date: 2026-10-04T10:38:43+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: bufan\n"
@@ -224,7 +224,7 @@ msgid "No articles yet — check back soon."
 msgstr ""
 
 #: inc/helpers.php:194
-#: inc/products.php:287
+#: inc/products.php:296
 msgid "Product photos"
 msgstr ""
 
@@ -233,7 +233,7 @@ msgid "Add to product"
 msgstr ""
 
 #: inc/helpers.php:196
-#: inc/products.php:299
+#: inc/products.php:308
 msgid "Remove photo"
 msgstr ""
 
@@ -599,172 +599,173 @@ msgstr ""
 msgid "Products list"
 msgstr ""
 
-#: inc/products.php:57
+#: inc/products.php:60
 #: template-parts/product-archive.php:36
 msgid "Product categories"
 msgstr ""
 
-#: inc/products.php:58
+#: inc/products.php:61
 msgid "Product category"
 msgstr ""
 
-#: inc/products.php:59
+#: inc/products.php:62
 msgid "Categories"
 msgstr ""
 
-#: inc/products.php:60
+#: inc/products.php:63
 msgid "All categories"
 msgstr ""
 
-#: inc/products.php:61
+#: inc/products.php:64
 msgid "Edit category"
 msgstr ""
 
-#: inc/products.php:62
+#: inc/products.php:65
 msgid "View category"
 msgstr ""
 
-#: inc/products.php:63
+#: inc/products.php:66
 msgid "Update category"
 msgstr ""
 
-#: inc/products.php:64
+#: inc/products.php:67
 msgid "Add new category"
 msgstr ""
 
-#: inc/products.php:65
+#: inc/products.php:68
 msgid "New category name"
 msgstr ""
 
-#: inc/products.php:66
+#: inc/products.php:69
 msgid "Parent category"
 msgstr ""
 
-#: inc/products.php:67
+#: inc/products.php:70
 msgid "Search categories"
 msgstr ""
 
-#: inc/products.php:68
+#: inc/products.php:71
 msgid "No categories found."
 msgstr ""
 
-#: inc/products.php:69
+#: inc/products.php:72
 msgid "← Back to categories"
 msgstr ""
 
-#: inc/products.php:94
-#: inc/products.php:417
+#: inc/products.php:103
+#: inc/products.php:426
 #: single-bufan_product.php:81
 #: template-parts/product-card.php:27
 msgid "Item No."
 msgstr ""
 
-#: inc/products.php:98
+#: inc/products.php:107
 msgid "Size"
 msgstr ""
 
-#: inc/products.php:99
+#: inc/products.php:108
 msgid "20 × 14 × 6 cm"
 msgstr ""
 
-#: inc/products.php:102
+#: inc/products.php:111
 msgid "Material"
 msgstr ""
 
-#: inc/products.php:103
+#: inc/products.php:112
 msgid "12 oz cotton canvas, polyester lining"
 msgstr ""
 
-#: inc/products.php:106
+#: inc/products.php:115
 msgid "Colors"
 msgstr ""
 
-#: inc/products.php:107
+#: inc/products.php:116
 msgid "Natural, black, navy, or Pantone matched"
 msgstr ""
 
-#: inc/products.php:110
+#: inc/products.php:119
 msgid "Embroidery"
 msgstr ""
 
-#: inc/products.php:111
+#: inc/products.php:120
 msgid "Flat, 3D puff, chenille"
 msgstr ""
 
-#: inc/products.php:114
+#: inc/products.php:123
+#: inc/products.php:480
 #: template-parts/product-card.php:30
 msgid "MOQ"
 msgstr ""
 
-#: inc/products.php:115
+#: inc/products.php:124
 msgid "100 pcs per design"
 msgstr ""
 
-#: inc/products.php:118
+#: inc/products.php:127
 msgid "Sample time"
 msgstr ""
 
-#: inc/products.php:119
+#: inc/products.php:128
 msgid "5–7 days"
 msgstr ""
 
-#: inc/products.php:122
+#: inc/products.php:131
 msgid "Production time"
 msgstr ""
 
-#: inc/products.php:123
+#: inc/products.php:132
 msgid "15–25 days after sample approval"
 msgstr ""
 
-#: inc/products.php:126
+#: inc/products.php:135
 msgid "Packaging"
 msgstr ""
 
-#: inc/products.php:127
+#: inc/products.php:136
 msgid "1 pc per OPP bag, 100 pcs per carton"
 msgstr ""
 
-#: inc/products.php:264
+#: inc/products.php:273
 msgid "Product details"
 msgstr ""
 
-#: inc/products.php:284
+#: inc/products.php:293
 msgid "Fill in what applies — empty fields are hidden on the website. Set the main photo in \"Main product photo\" on the right, write the full description in the editor above, and a one or two sentence summary in \"Excerpt\" below (shown under the product title)."
 msgstr ""
 
-#: inc/products.php:304
+#: inc/products.php:313
 msgid "Add photos"
 msgstr ""
 
-#: inc/products.php:305
+#: inc/products.php:314
 msgid "Extra photos shown under the main photo. Drag to reorder."
 msgstr ""
 
-#: inc/products.php:308
+#: inc/products.php:317
 #: single-bufan_product.php:89
 msgid "Specifications"
 msgstr ""
 
-#: inc/products.php:319
+#: inc/products.php:328
 msgid "More specifications"
 msgstr ""
 
-#: inc/products.php:320
+#: inc/products.php:329
 msgid ""
 "Zipper: YKK #5 metal\n"
 "Weight: 85 g"
 msgstr ""
 
-#: inc/products.php:321
+#: inc/products.php:330
 msgid "One per line, written as \"Name: value\"."
 msgstr ""
 
-#: inc/products.php:324
+#: inc/products.php:333
 #: single-bufan_product.php:130
 msgid "Customization options"
 msgstr ""
 
-#: inc/products.php:326
+#: inc/products.php:335
 msgid ""
 "Your logo embroidered on the front\n"
 "Custom fabric color\n"
@@ -772,21 +773,45 @@ msgid ""
 "Woven label and hang tag"
 msgstr ""
 
-#: inc/products.php:327
+#: inc/products.php:336
 msgid "One option per line. Shown as a checklist on the product page."
 msgstr ""
 
-#: inc/products.php:330
-#: inc/products.php:418
+#: inc/products.php:339
+#: inc/products.php:427
 msgid "Homepage"
 msgstr ""
 
-#: inc/products.php:334
+#: inc/products.php:343
 msgid "Show this product in \"Featured products\" on the homepage"
 msgstr ""
 
-#: inc/products.php:413
+#: inc/products.php:422
 msgid "Photo"
+msgstr ""
+
+#: inc/products.php:470
+msgid "main product photo"
+msgstr ""
+
+#: inc/products.php:474
+msgid "product category"
+msgstr ""
+
+#: inc/products.php:477
+msgid "excerpt (short summary)"
+msgstr ""
+
+#: inc/products.php:487
+msgid "This product is live but still missing:"
+msgstr ""
+
+#: inc/products.php:488
+msgid ", "
+msgstr ""
+
+#: inc/roles.php:79
+msgid "Product editor"
 msgstr ""
 
 #: inc/settings.php:18

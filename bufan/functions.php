@@ -15,6 +15,7 @@ require BUFAN_DIR . '/inc/helpers.php';
 require BUFAN_DIR . '/inc/setup.php';
 require BUFAN_DIR . '/inc/icons.php';
 require BUFAN_DIR . '/inc/products.php';
+require BUFAN_DIR . '/inc/roles.php';
 require BUFAN_DIR . '/inc/inquiries.php';
 require BUFAN_DIR . '/inc/settings.php';
 require BUFAN_DIR . '/inc/home-fields.php';

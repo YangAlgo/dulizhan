@@ -7,7 +7,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-10-04T10:28:12+00:00\n"
+"POT-Creation-Date: 2026-10-04T10:36:58+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Language: zh_CN\n"
 "X-Generator: WP-CLI 2.12.0\n"
@@ -223,7 +223,7 @@ msgid "No articles yet — check back soon."
 msgstr "暂时还没有文章，敬请期待。"
 
 #: inc/helpers.php:194
-#: inc/products.php:287
+#: inc/products.php:296
 msgid "Product photos"
 msgstr "产品图片"
 
@@ -232,7 +232,7 @@ msgid "Add to product"
 msgstr "添加到产品"
 
 #: inc/helpers.php:196
-#: inc/products.php:299
+#: inc/products.php:308
 msgid "Remove photo"
 msgstr "移除图片"
 
@@ -598,157 +598,158 @@ msgstr "设为产品主图"
 msgid "Products list"
 msgstr "产品列表"
 
-#: inc/products.php:57
+#: inc/products.php:60
 #: template-parts/product-archive.php:36
 msgid "Product categories"
 msgstr "产品分类"
 
-#: inc/products.php:58
+#: inc/products.php:61
 msgid "Product category"
 msgstr "产品分类"
 
-#: inc/products.php:59
+#: inc/products.php:62
 msgid "Categories"
 msgstr "分类"
 
-#: inc/products.php:60
+#: inc/products.php:63
 msgid "All categories"
 msgstr "全部分类"
 
-#: inc/products.php:61
+#: inc/products.php:64
 msgid "Edit category"
 msgstr "编辑分类"
 
-#: inc/products.php:62
+#: inc/products.php:65
 msgid "View category"
 msgstr "查看分类"
 
-#: inc/products.php:63
+#: inc/products.php:66
 msgid "Update category"
 msgstr "更新分类"
 
-#: inc/products.php:64
+#: inc/products.php:67
 msgid "Add new category"
 msgstr "添加新分类"
 
-#: inc/products.php:65
+#: inc/products.php:68
 msgid "New category name"
 msgstr "新分类名称"
 
-#: inc/products.php:66
+#: inc/products.php:69
 msgid "Parent category"
 msgstr "上级分类"
 
-#: inc/products.php:67
+#: inc/products.php:70
 msgid "Search categories"
 msgstr "搜索分类"
 
-#: inc/products.php:68
+#: inc/products.php:71
 msgid "No categories found."
 msgstr "没有找到分类。"
 
-#: inc/products.php:69
+#: inc/products.php:72
 msgid "← Back to categories"
 msgstr "← 返回分类"
 
-#: inc/products.php:94
-#: inc/products.php:417
+#: inc/products.php:103
+#: inc/products.php:426
 #: single-bufan_product.php:81
 #: template-parts/product-card.php:27
 msgid "Item No."
 msgstr "货号"
 
-#: inc/products.php:98
+#: inc/products.php:107
 msgid "Size"
 msgstr "尺寸"
 
-#: inc/products.php:99
+#: inc/products.php:108
 msgid "20 × 14 × 6 cm"
 msgstr "20 × 14 × 6 厘米"
 
-#: inc/products.php:102
+#: inc/products.php:111
 msgid "Material"
 msgstr "材质"
 
-#: inc/products.php:103
+#: inc/products.php:112
 msgid "12 oz cotton canvas, polyester lining"
 msgstr "12 安士棉帆布，涤纶内衬"
 
-#: inc/products.php:106
+#: inc/products.php:115
 msgid "Colors"
 msgstr "颜色"
 
-#: inc/products.php:107
+#: inc/products.php:116
 msgid "Natural, black, navy, or Pantone matched"
 msgstr "本色、黑色、藏青，或按潘通色号配色"
 
-#: inc/products.php:110
+#: inc/products.php:119
 msgid "Embroidery"
 msgstr "刺绣工艺"
 
-#: inc/products.php:111
+#: inc/products.php:120
 msgid "Flat, 3D puff, chenille"
 msgstr "平绣、立体绣、毛巾绣"
 
-#: inc/products.php:114
+#: inc/products.php:123
+#: inc/products.php:480
 #: template-parts/product-card.php:30
 msgid "MOQ"
 msgstr "起订量"
 
-#: inc/products.php:115
+#: inc/products.php:124
 msgid "100 pcs per design"
 msgstr "每款 100 个"
 
-#: inc/products.php:118
+#: inc/products.php:127
 msgid "Sample time"
 msgstr "打样时间"
 
-#: inc/products.php:119
+#: inc/products.php:128
 msgid "5–7 days"
 msgstr "5–7 天"
 
-#: inc/products.php:122
+#: inc/products.php:131
 msgid "Production time"
 msgstr "大货交期"
 
-#: inc/products.php:123
+#: inc/products.php:132
 msgid "15–25 days after sample approval"
 msgstr "确认样品后 15–25 天"
 
-#: inc/products.php:126
+#: inc/products.php:135
 msgid "Packaging"
 msgstr "包装"
 
-#: inc/products.php:127
+#: inc/products.php:136
 msgid "1 pc per OPP bag, 100 pcs per carton"
 msgstr "每个独立 OPP 袋，每箱 100 个"
 
-#: inc/products.php:264
+#: inc/products.php:273
 msgid "Product details"
 msgstr "产品详情"
 
-#: inc/products.php:284
+#: inc/products.php:293
 msgid "Fill in what applies — empty fields are hidden on the website. Set the main photo in \"Main product photo\" on the right, write the full description in the editor above, and a one or two sentence summary in \"Excerpt\" below (shown under the product title)."
 msgstr "有的就填，没有的留空——留空的字段不会在网站上显示。产品主图在右侧“产品主图”里设置，详细介绍写在上方编辑器里，一两句话的简介写在下方“摘要”里（显示在产品标题下面）。"
 
-#: inc/products.php:304
+#: inc/products.php:313
 msgid "Add photos"
 msgstr "添加图片"
 
-#: inc/products.php:305
+#: inc/products.php:314
 msgid "Extra photos shown under the main photo. Drag to reorder."
 msgstr "显示在主图下方的更多图片，可拖动调整顺序。"
 
-#: inc/products.php:308
+#: inc/products.php:317
 #: single-bufan_product.php:89
 msgid "Specifications"
 msgstr "规格参数"
 
-#: inc/products.php:319
+#: inc/products.php:328
 msgid "More specifications"
 msgstr "更多参数"
 
-#: inc/products.php:320
+#: inc/products.php:329
 msgid ""
 "Zipper: YKK #5 metal\n"
 "Weight: 85 g"
@@ -756,16 +757,16 @@ msgstr ""
 "拉链: YKK 5 号金属拉链\n"
 "重量: 85 克"
 
-#: inc/products.php:321
+#: inc/products.php:330
 msgid "One per line, written as \"Name: value\"."
 msgstr "每行一条，格式为“名称: 内容”。"
 
-#: inc/products.php:324
+#: inc/products.php:333
 #: single-bufan_product.php:130
 msgid "Customization options"
 msgstr "可定制项目"
 
-#: inc/products.php:326
+#: inc/products.php:335
 msgid ""
 "Your logo embroidered on the front\n"
 "Custom fabric color\n"
@@ -777,22 +778,46 @@ msgstr ""
 "印花内衬\n"
 "织唛和吊牌"
 
-#: inc/products.php:327
+#: inc/products.php:336
 msgid "One option per line. Shown as a checklist on the product page."
 msgstr "每行一项，在产品页以清单形式显示。"
 
-#: inc/products.php:330
-#: inc/products.php:418
+#: inc/products.php:339
+#: inc/products.php:427
 msgid "Homepage"
 msgstr "首页"
 
-#: inc/products.php:334
+#: inc/products.php:343
 msgid "Show this product in \"Featured products\" on the homepage"
 msgstr "在首页“热门款式”中显示这个产品"
 
-#: inc/products.php:413
+#: inc/products.php:422
 msgid "Photo"
 msgstr "图片"
+
+#: inc/products.php:470
+msgid "main product photo"
+msgstr "产品主图"
+
+#: inc/products.php:474
+msgid "product category"
+msgstr "产品分类"
+
+#: inc/products.php:477
+msgid "excerpt (short summary)"
+msgstr "摘要（一句话简介）"
+
+#: inc/products.php:487
+msgid "This product is live but still missing:"
+msgstr "这个产品已上架，但还缺少："
+
+#: inc/products.php:488
+msgid ", "
+msgstr "、"
+
+#: inc/roles.php:79
+msgid "Product editor"
+msgstr "产品上架员"
 
 #: inc/settings.php:18
 msgid "Brand"

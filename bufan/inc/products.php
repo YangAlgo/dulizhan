@@ -42,10 +42,13 @@ function bufan_register_products() {
 				'slug'       => 'products',
 				'with_front' => false,
 			),
-			'menu_icon'     => 'dashicons-products',
-			'menu_position' => 5,
-			'supports'      => array( 'title', 'editor', 'excerpt', 'thumbnail', 'revisions', 'page-attributes' ),
-			'taxonomies'    => array( 'bufan_product_cat' ),
+			'menu_icon'       => 'dashicons-products',
+			'menu_position'   => 5,
+			'supports'        => array( 'title', 'editor', 'excerpt', 'thumbnail', 'revisions', 'page-attributes' ),
+			'taxonomies'      => array( 'bufan_product_cat' ),
+			// Own capabilities, so staff can manage products without touching posts or pages (see inc/roles.php).
+			'capability_type' => array( 'bufan_product', 'bufan_products' ),
+			'map_meta_cap'    => true,
 		)
 	);
 
@@ -72,6 +75,12 @@ function bufan_register_products() {
 			'public'            => true,
 			'show_in_rest'      => true,
 			'show_admin_column' => true,
+			'capabilities'      => array(
+				'manage_terms' => 'edit_others_bufan_products',
+				'edit_terms'   => 'edit_others_bufan_products',
+				'delete_terms' => 'edit_others_bufan_products',
+				'assign_terms' => 'edit_bufan_products',
+			),
 			'rewrite'           => array(
 				'slug'         => 'product-category',
 				'with_front'   => false,
@@ -443,3 +452,40 @@ function bufan_product_column_values( $column, $post_id ) {
 	}
 }
 add_action( 'manage_bufan_product_posts_custom_column', 'bufan_product_column_values', 10, 2 );
+
+/**
+ * Listing check on the product edit screen: remind staff what a published product is missing.
+ */
+function bufan_product_listing_check() {
+	$screen = get_current_screen();
+	if ( ! $screen || 'bufan_product' !== $screen->post_type || 'post' !== $screen->base ) {
+		return;
+	}
+	$post = get_post();
+	if ( ! $post || 'publish' !== $post->post_status ) {
+		return;
+	}
+	$missing = array();
+	if ( ! get_post_thumbnail_id( $post ) ) {
+		$missing[] = __( 'main product photo', 'bufan' );
+	}
+	$terms = get_the_terms( $post, 'bufan_product_cat' );
+	if ( ! $terms || is_wp_error( $terms ) ) {
+		$missing[] = __( 'product category', 'bufan' );
+	}
+	if ( '' === trim( (string) $post->post_excerpt ) ) {
+		$missing[] = __( 'excerpt (short summary)', 'bufan' );
+	}
+	if ( '' === bufan_product_meta( $post->ID, 'moq' ) ) {
+		$missing[] = __( 'MOQ', 'bufan' );
+	}
+	if ( ! $missing ) {
+		return;
+	}
+	printf(
+		'<div class="notice notice-warning"><p><strong>%1$s</strong> %2$s</p></div>',
+		esc_html__( 'This product is live but still missing:', 'bufan' ),
+		esc_html( implode( __( ', ', 'bufan' ), $missing ) )
+	);
+}
+add_action( 'admin_notices', 'bufan_product_listing_check' );
