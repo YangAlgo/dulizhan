@@ -3,8 +3,8 @@
 .bufan-mb__intro {
 	margin: 4px 0 12px;
 	padding: 10px 12px;
-	background: #f6f1e7;
-	border-left: 3px solid #b5542c;
+	background: #eef1ff;
+	border-left: 3px solid #1b3fd1;
 }
 
 .bufan-mb__title {
@@ -83,8 +83,8 @@
 
 .bufan-gallery__item.ui-sortable-placeholder {
 	visibility: visible !important;
-	border: 2px dashed #b5542c;
-	background: #f7e8de;
+	border: 2px dashed #1b3fd1;
+	background: #e8ecff;
 }
 
 .bufan-gallery .description {
@@ -114,7 +114,7 @@
 	display: inline-block;
 	padding: 1px 7px;
 	border-radius: 10px;
-	background: #b5542c;
+	background: #1b3fd1;
 	color: #fff;
 	font-size: 11px;
 	font-weight: 600;
@@ -144,7 +144,7 @@
 
 .column-bufan_featured {
 	width: 80px;
-	color: #b5542c;
+	color: #1b3fd1;
 	font-size: 16px;
 }
 
@@ -186,7 +186,7 @@
 
 .bufan-checklist .is-todo::before {
 	content: "!";
-	color: #b5542c;
+	color: #1b3fd1;
 }
 
 .bufan-setup__log {

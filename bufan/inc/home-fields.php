@@ -18,7 +18,8 @@ defined( 'ABSPATH' ) || exit;
 function bufan_home_defaults() {
 	return array(
 		'hero_eyebrow' => __( 'Canvas embroidery factory · OEM & ODM', 'bufan' ),
-		'hero_title'   => __( 'Custom embroidered canvas bags, made in our own factory', 'bufan' ),
+		/* translators: words between *stars* are highlighted in yellow on the homepage. */
+		'hero_title'   => __( 'Custom *embroidered* canvas bags, made in our own factory', 'bufan' ),
 		'hero_text'    => __( 'Cosmetic pouches, coin purses, pencil cases and totes — embroidered with your design and made to order for brands, shops and events in Europe and North America.', 'bufan' ),
 		'stat1_value'  => __( 'OEM & ODM', 'bufan' ),
 		'stat1_label'  => __( 'Your design or ours', 'bufan' ),
@@ -132,6 +133,7 @@ function bufan_render_home_meta_box( $post ) {
 		<p>
 			<label for="bufan-hero_title"><strong><?php esc_html_e( 'Main title', 'bufan' ); ?></strong></label>
 			<input type="text" class="widefat" id="bufan-hero_title" name="bufan_home[hero_title]" value="<?php echo esc_attr( $value( 'hero_title' ) ); ?>" placeholder="<?php echo esc_attr( $defaults['hero_title'] ); ?>">
+			<span class="description"><?php esc_html_e( 'Put *stars* around a word to highlight it in yellow with a stitched underline.', 'bufan' ); ?></span>
 		</p>
 		<p>
 			<label for="bufan-hero_text"><strong><?php esc_html_e( 'Text under the title', 'bufan' ); ?></strong></label>

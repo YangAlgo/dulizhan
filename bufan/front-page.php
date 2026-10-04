@@ -44,11 +44,11 @@ $bufan_categories = bufan_category_cards( 6 );
 	<div class="container hero__inner">
 		<div class="hero__content">
 			<p class="eyebrow"><?php echo esc_html( bufan_home_field( 'hero_eyebrow' ) ); ?></p>
-			<h1 class="hero__title"><?php echo esc_html( bufan_home_field( 'hero_title' ) ); ?></h1>
+			<h1 class="hero__title"><?php echo bufan_highlight( bufan_home_field( 'hero_title' ) ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- escaped inside. ?></h1>
 			<p class="hero__text"><?php echo esc_html( bufan_home_field( 'hero_text' ) ); ?></p>
 			<div class="hero__actions">
-				<a class="btn btn--primary btn--lg" href="<?php echo esc_url( bufan_quote_url() ); ?>"><?php esc_html_e( 'Get a free quote', 'bufan' ); ?> <?php echo bufan_icon( 'arrow-right', 18 ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></a>
-				<a class="btn btn--outline btn--lg" href="<?php echo esc_url( bufan_products_url() ); ?>"><?php esc_html_e( 'View products', 'bufan' ); ?></a>
+				<a class="btn btn--sun btn--lg" href="<?php echo esc_url( bufan_quote_url() ); ?>"><?php esc_html_e( 'Get a free quote', 'bufan' ); ?> <?php echo bufan_icon( 'arrow-right', 18 ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></a>
+				<a class="btn btn--ghost-light btn--lg" href="<?php echo esc_url( bufan_products_url() ); ?>"><?php esc_html_e( 'View products', 'bufan' ); ?></a>
 			</div>
 			<ul class="hero__checks">
 				<li><?php echo bufan_icon( 'check', 16 ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?><?php esc_html_e( 'Custom logo embroidery', 'bufan' ); ?></li>
@@ -56,10 +56,11 @@ $bufan_categories = bufan_category_cards( 6 );
 				<li><?php echo bufan_icon( 'check', 16 ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?><?php esc_html_e( 'Factory prices', 'bufan' ); ?></li>
 			</ul>
 		</div>
-		<div class="hero__media">
+		<?php $bufan_has_photo = $bufan_hero_image && wp_attachment_is_image( $bufan_hero_image ); ?>
+		<div class="hero__media <?php echo $bufan_has_photo ? 'hero__media--photo' : 'hero__media--art'; ?>">
 			<div class="hero__frame">
 				<?php
-				if ( $bufan_hero_image && wp_attachment_is_image( $bufan_hero_image ) ) {
+				if ( $bufan_has_photo ) {
 					echo wp_get_attachment_image(
 						$bufan_hero_image,
 						'large',
@@ -68,7 +69,7 @@ $bufan_categories = bufan_category_cards( 6 );
 							'class'         => 'hero__img',
 							'loading'       => 'eager',
 							'fetchpriority' => 'high',
-							'sizes'         => '(min-width: 1000px) 560px, 100vw',
+							'sizes'         => '(min-width: 1000px) 520px, 100vw',
 						)
 					);
 				} else {
@@ -82,20 +83,29 @@ $bufan_categories = bufan_category_cards( 6 );
 			</div>
 		</div>
 	</div>
-</section>
-
-<section class="stats" aria-label="<?php esc_attr_e( 'Key facts', 'bufan' ); ?>">
 	<div class="container">
-		<ul class="stats__grid">
+		<ul class="hero__stats" aria-label="<?php esc_attr_e( 'Key facts', 'bufan' ); ?>">
 			<?php for ( $bufan_i = 1; $bufan_i <= 4; $bufan_i++ ) : ?>
-				<li class="stats__item">
-					<strong class="stats__value"><?php echo esc_html( bufan_home_field( 'stat' . $bufan_i . '_value' ) ); ?></strong>
-					<span class="stats__label"><?php echo esc_html( bufan_home_field( 'stat' . $bufan_i . '_label' ) ); ?></span>
+				<li class="hero__stat">
+					<strong><?php echo esc_html( bufan_home_field( 'stat' . $bufan_i . '_value' ) ); ?></strong>
+					<span><?php echo esc_html( bufan_home_field( 'stat' . $bufan_i . '_label' ) ); ?></span>
 				</li>
 			<?php endfor; ?>
 		</ul>
 	</div>
 </section>
+
+<div class="ticker">
+	<div class="ticker__track">
+		<?php foreach ( array( false, true ) as $bufan_copy ) : ?>
+			<ul class="ticker__list"<?php echo $bufan_copy ? ' aria-hidden="true"' : ''; ?>>
+				<?php foreach ( array_merge( bufan_ticker_items(), bufan_ticker_items() ) as $bufan_item ) : ?>
+					<li class="ticker__item"><?php echo esc_html( $bufan_item ); ?></li>
+				<?php endforeach; ?>
+			</ul>
+		<?php endforeach; ?>
+	</div>
+</div>
 
 <?php if ( $bufan_categories ) : ?>
 	<section class="section">

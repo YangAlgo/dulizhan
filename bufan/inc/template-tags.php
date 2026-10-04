@@ -39,7 +39,7 @@ function bufan_logo() {
  * Small stitched-badge mark used next to the text logo.
  */
 function bufan_logo_mark() {
-	return '<svg width="34" height="34" viewBox="0 0 34 34" fill="none"><rect x="1" y="1" width="32" height="32" rx="9" fill="currentColor"/><rect x="4.5" y="4.5" width="25" height="25" rx="6" stroke="#F5EFE3" stroke-opacity=".7" stroke-width="1.2" stroke-dasharray="2.4 2.2"/><path d="M12.5 10v14M12.5 10h5a3.5 3.5 0 0 1 0 7h-5M12.5 17h6a3.5 3.5 0 0 1 0 7h-6" stroke="#F5EFE3" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+	return '<svg width="34" height="34" viewBox="0 0 34 34" fill="none"><rect x="1" y="1" width="32" height="32" rx="10" fill="currentColor"/><rect x="4.5" y="4.5" width="25" height="25" rx="7" stroke="#FFC61A" stroke-width="1.6" stroke-dasharray="2.6 2.2"/><path d="M12.5 10v14M12.5 10h5a3.5 3.5 0 0 1 0 7h-5M12.5 17h6a3.5 3.5 0 0 1 0 7h-6" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>';
 }
 
 /**
@@ -325,6 +325,45 @@ function bufan_contact_list( $class = 'contact-list' ) {
 		);
 	}
 	echo '</ul>';
+}
+
+/**
+ * Escape a heading and turn *starred words* into a highlighted span with a stitched underline.
+ *
+ * @param string $text Plain text, e.g. "Custom *embroidered* canvas bags".
+ */
+function bufan_highlight( $text ) {
+	$html = esc_html( $text );
+	return preg_replace(
+		'/\*([^*]+)\*/u',
+		'<em class="hl">$1<svg class="hl__stitch" viewBox="0 0 200 12" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path d="M2 8 C 30 2, 55 11, 85 6 S 140 2, 165 7 S 190 9, 198 5"/></svg></em>',
+		$html
+	);
+}
+
+/**
+ * Text with the highlight stars removed (for places that cannot show the highlight).
+ *
+ * @param string $text Text that may contain *stars*.
+ */
+function bufan_strip_highlight( $text ) {
+	return str_replace( '*', '', $text );
+}
+
+/**
+ * Selling points scrolling in the yellow band under the homepage banner.
+ *
+ * @return string[]
+ */
+function bufan_ticker_items() {
+	return array(
+		__( 'Custom logo embroidery', 'bufan' ),
+		__( 'OEM & ODM', 'bufan' ),
+		__( 'Sample before bulk', 'bufan' ),
+		__( 'Made in our own factory', 'bufan' ),
+		__( 'Export to Europe & North America', 'bufan' ),
+		__( 'Cotton canvas', 'bufan' ),
+	);
 }
 
 /**

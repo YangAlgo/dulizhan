@@ -83,7 +83,7 @@ add_action( 'wp_enqueue_scripts', 'bufan_assets' );
  * Preload the body and heading fonts so text renders without a visible swap.
  */
 function bufan_preload_fonts() {
-	foreach ( array( 'inter-var.woff2', 'fraunces-var.woff2' ) as $font ) {
+	foreach ( array( 'figtree-var.woff2', 'bricolage-var.woff2' ) as $font ) {
 		printf(
 			'<link rel="preload" href="%s" as="font" type="font/woff2" crossorigin>' . "\n",
 			esc_url( BUFAN_URI . '/assets/fonts/' . $font )

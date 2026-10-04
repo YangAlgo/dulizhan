@@ -211,7 +211,7 @@ bufan/                    WordPress 主题
 │   └── icons.php         内联 SVG 图标（Lucide / Simple Icons）
 ├── template-parts/       产品卡片、询盘表单、流程、页头等
 ├── page-templates/       联系页、定制服务页模板
-├── assets/               CSS、JS、自托管字体（Fraunces、Inter，SIL OFL）、插图
+├── assets/               CSS、JS、自托管字体（Bricolage Grotesque、Figtree，SIL OFL）、插图
 └── languages/            zh_CN 翻译（.po 源文件，.mo / .l10n.php 已编译）
 tools/build.sh            重新编译翻译并打包 dist/bufan.zip
 dist/bufan.zip            可直接上传到 WordPress 的主题包

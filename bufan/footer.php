@@ -50,7 +50,7 @@ $bufan_privacy = bufan_page_url( 'privacy' );
 		<div class="site-footer__col">
 			<h2 class="site-footer__title"><?php esc_html_e( 'Contact', 'bufan' ); ?></h2>
 			<?php bufan_contact_list( 'contact-list contact-list--footer' ); ?>
-			<a class="btn btn--light btn--sm" href="<?php echo esc_url( bufan_quote_url() ); ?>"><?php esc_html_e( 'Send an inquiry', 'bufan' ); ?></a>
+			<a class="btn btn--sun btn--sm" href="<?php echo esc_url( bufan_quote_url() ); ?>"><?php esc_html_e( 'Send an inquiry', 'bufan' ); ?></a>
 		</div>
 	</div>
 
